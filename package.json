@@ -1,0 +1,24 @@
+{
+  "name": "@schummar/prettier-config",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": ".prettierrc.json",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "prettier": ">=2"
+  },
+  "devDependencies": {
+    "@schummar/eslint-config": "schummar/eslint-config",
+    "eslint": "^8.32.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@schummar/eslint-config"
+    ]
+  }
+}
